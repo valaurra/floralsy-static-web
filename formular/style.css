@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  padding: 0;
+}
+body {
+  background-color: #FFFFFA;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+}
+.start {
+    display: flex;
+    flex-direction: row;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  color: #1F363D;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+h3 {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+input {
+  width: 30rem;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid #1F363D;
+  margin-bottom: 1rem;
+}
+textarea {
+  width: 30rem;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  resize: none;
+  height: 2rem;
+  border-bottom: 3px solid #1F363D;
+}
+select {
+  width: 30rem;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid #1F363D;
+  margin-top: 2rem;
+}
+button {
+  margin-top: 3rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 3px solid #1F363D;
+}

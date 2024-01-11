@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="img/logo.svg">
+<title>Objednávky</title>
+</head>
+
+<body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Poppins:wght@200&display=swap');
+</style>
+<div id="wrapper">
+  <form class="container">
+    <h1>Objednajte si u nás kyticu na mieru</h1>
+    <div class="start"><label for="meno">Vaše prvé meno</label></div>
+    <input type="text" id="meno">
+    <label for="priezvisko">Vaše priezvisko </label>
+    <input type="text" id="priezvisko">
+    <label for="email">Váš email</label>
+    <input type="email" id="email">
+    <label for="cislo">Vaše Číslo</label>
+    <input type="number" id="cislo">
+    <label for="adresa">Adresa zaslania</label>
+    <input type="text" id="adresa">
+    <h3>Kvety</h3>
+    <div class="row">
+      <input type="radio" id="ruze">
+      <label for="ruze">Ruže</label>
+      <input type="radio" id="lalia">
+      <label for="lalia">Ľalie</label>
+      <input type="radio" id="pionie">
+      <label for="pionie">Piónie</label>
+      <input type="radio" id="tulipan">
+      <label for="tulipan">Tulipán</label>
+    </div>
+    <label for="ine">Iné..</label>
+    <textarea id="ine"></textarea>
+    <h3>Veľkosť</h3>
+    <select id="velkost" name="velskot">
+      <option value="male">Malá</option>
+      <option value="stred">Stredná</option>
+      <option value="velka">Veľká</option>
+    </select>
+    <br>
+    <button>Odoslať</button>
+  </form>
+</div>
+</body>
+</html>
